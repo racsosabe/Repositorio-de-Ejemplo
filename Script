@@ -1,0 +1,14 @@
+touch .gitkeep
+mkdir CarpetaNueva
+mkdir Subcarpeta1
+mkdir Subcarpeta2
+cp .gitkeep CarpetaNueva
+cp .gitkeep Subcarpeta2
+cp CLI.md Subcarpeta1
+git add CarpetaNueva1
+git add Subcarpeta1
+git add Subcarpeta2
+git mv Subcarpeta1 CarpetaNueva
+git mv Subcarpeta2 CarpetaNueva
+git commit -m "Agrego Carpeta con subcarpetas"
+git push origin master
